@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #15bdac;
+  box-shadow: 0 0 5px;
+}
+
+.logo-img {
+  max-width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo-text {
+  display: block;
+  color: #ffffff;
+  font-family: "Letter Gothic";
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4.6px;
+  padding-top: 10px;
+}
+
+.tagline {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+}
+
+.block-1 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.promo-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  color: #000000;
+  font-family: Impact;
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.shield-img {
+  display: block;
+  max-width: 400px;
+  margin-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+.button-link {
+  padding: 17px 24px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  background-color: #474747;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Exo 2", sans-serif;
+}
+
+.block-2 {
+  background-color: #f3f3f3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.description {
+  display: block;
+  font-size: 22px;
+  font-family: "Exo 2", sans-serif;
+  line-height: 35px;
+  text-align: justify;
+  margin-right: 17%;
+  margin-left: 17%;
+  font-weight: bold;
+}
+
+.badge-cont {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.badge {
+  max-height: 310px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.descr-addition {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.block-3 {
+  padding-top: 120px;
+  padding-bottom: 145px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-family: "MyriadPro";
+}
+
+.work-descr {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 700;
+  font-family: "Exo 2", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.work-icon {
+  display: block;
+  margin: auto;
+  max-height: 100px;
+  margin-top: 100px;
+}
+
+.block-4 {
+  background-color: #f3f3f3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.question,
+.answer {
+  padding-left: 17%;
+  padding-right: 17%;
+  font-size: 18px;
+  line-height: 30px;
+}
+.question {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.answer {
+  padding-bottom: 50px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.title-q {
+  padding-bottom: 50px;
+}
+.block-5 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.buy-descr {
+  text-align: center;
+  font-size: 25px;
+}
+
+.buy-links {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.ozon-link {
+  border-radius: 40px;
+  background-color: #3578ff;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 30px 80px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.wildberries-link {
+  border-radius: 40px;
+  background-color: #ff2a84;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Exo 2", sans-serif;
+  padding: 30px 80px;
+  display: block;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.smith-logo {
+  max-height: 70px;
+}
+
+.mail,
+.phone {
+  display: block;
+  padding-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Exo 2", sans-serif;
+}
