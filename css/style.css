@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -54,17 +54,16 @@ body {
   margin-right: auto;
   max-width: 900px;
   color: #000000;
-  font-family: Impact;
+  font-family: 'Gabriela', serif;
+  font-weight: bold;
   font-size: 27px;
   font-weight: 400;
   letter-spacing: 1.5px;
-  padding-right: 30px;
-  padding-left: 30px;
 }
 
 .shield-img {
   display: block;
-  max-width: 300px;
+  max-width: 350px;
   margin-top: 56px;
   margin-left: auto;
   margin-right: auto;
@@ -120,7 +119,7 @@ body {
 .title {
   text-align: center;
   font-size: 30px;
-  font-family: "MyriadPro";
+  font-family: 'Rubik', sans-serif;
 }
 
 .work-descr {
@@ -153,6 +152,7 @@ body {
   line-height: 30px;
 }
 .question {
+  font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 10px;
@@ -173,6 +173,7 @@ body {
 .buy-descr {
   text-align: center;
   font-size: 25px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .buy-links {
@@ -227,33 +228,86 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
-@media(max-width: 768px) {
-.shield-img {
- max-width: 200px;
-}
-.promo-text {
-  font-size: 20px;
-}
+@media (max-width: 768px) {
+  .shield-img {
+    max-width: 200px;
+  }
+  .promo-text {
+    font-size: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
 
-.description {
-  font-size: 16px;
-  margin-right: 5%;
-  margin-left: 5%;
-}
-.block-2 {
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
+  .description {
+    text-align: left;
+    font-size: 16px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .block-2 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
 
-.badge {
-  max-height: 250px;
-  border-radius: 50px;
+  .badge {
+    max-height: 250px;
+    border-radius: 50px;
+  }
+  .block-3 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .title {
+    font-size: 20px;
+  }
+
+  .work-icon {
+    max-height: 60px;
+    margin-top: 70px;
+  }
+
+  .block-4 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .question,
+  .answer {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .block-5 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .buy-descr {
+    font-size: 18px;
+  }
+  .buy-links {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .ozon-link{
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .wildberries-link {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+.footer{
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
-.block-3 {
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-.title {
-  font-size: 24px;
-}
+  .smith-logo {
+    max-height: 50px;
+  }
+  .mail,
+  .phone {
+    font-size: 18px;
+  }
 }
