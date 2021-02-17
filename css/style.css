@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -22,10 +26,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 4.6px;
   padding-top: 10px;
+  text-align: center;
 }
 
 .tagline {
-  display: inline-block;
+  display: block;
   color: #ffffff;
   font-family: "Lato", sans-serif;
   font-size: 13px;
@@ -34,6 +39,7 @@ body {
   letter-spacing: 2.5px;
   padding-bottom: 10px;
   padding-left: 2px;
+  text-align: center;
 }
 
 .block-1 {
@@ -52,13 +58,13 @@ body {
   font-size: 27px;
   font-weight: 400;
   letter-spacing: 1.5px;
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .shield-img {
   display: block;
-  max-width: 400px;
+  max-width: 300px;
   margin-top: 56px;
   margin-left: auto;
   margin-right: auto;
@@ -221,6 +227,33 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
-@media {
-  
+@media(max-width: 768px) {
+.shield-img {
+ max-width: 200px;
+}
+.promo-text {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 16px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.block-2 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.badge {
+  max-height: 250px;
+  border-radius: 50px;
+}
+.block-3 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.title {
+  font-size: 24px;
+}
 }
