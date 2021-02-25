@@ -91,7 +91,7 @@ body {
   font-size: 22px;
   font-family: "Exo 2", sans-serif;
   line-height: 35px;
-  text-align: justify;
+  text-align: left;
   margin-right: 17%;
   margin-left: 17%;
   font-weight: bold;
@@ -107,8 +107,7 @@ body {
   border-radius: 15px;
 }
 .descr-addition {
-  padding-top: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .block-3 {
@@ -243,7 +242,7 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 768px) {
   .shield-img {
     max-width: 200px;
   }
@@ -254,7 +253,6 @@ body {
   }
 
   .description {
-    text-align: left;
     font-size: 15px;
     margin-right: 5%;
     margin-left: 5%;
