@@ -254,10 +254,11 @@ body {
   }
 
   .description {
-    text-align: left;
+    text-align: justify;
     font-size: 16px;
     margin-right: 5%;
     margin-left: 5%;
+
   }
   .block-2 {
     padding-bottom: 50px;
