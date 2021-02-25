@@ -243,7 +243,7 @@ body {
   font-family: "Exo 2", sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .shield-img {
     max-width: 200px;
   }
