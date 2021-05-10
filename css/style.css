@@ -11,11 +11,6 @@ body {
   box-shadow: 0 0 5px;
 }
 
-.logo-img {
-  max-width: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
 .logo-text {
   display: block;
@@ -181,33 +176,17 @@ body {
 
 .buy-links {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.ozon-link {
-  border-radius: 40px;
-  background-color: #3578ff;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 30px 80px;
-  font-family: "Exo 2", sans-serif;
-  font-weight: bold;
-  display: block;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.wildberries-link {
-  border-radius: 40px;
-  background-color: #ff2a84;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Exo 2", sans-serif;
-  padding: 30px 80px;
-  display: block;
-  font-weight: bold;
+.buy-link {
+  border: 3px #BBBBBB solid;
+  border-radius: 25px;
+}
+
+.logo-img {
+  max-height: 65px;
 }
 
 .bold {
@@ -300,24 +279,18 @@ body {
     max-width: 90%;
     line-height: 40px;
   }
-  .buy-links {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+  .buy-link {
+    margin-top: 17px;
+    margin-bottom: 17px;
     margin-right: 25px;
     margin-left: 25px;
+
   }
-  .ozon-link {
-    padding-bottom: 15px;
-    padding-top: 15px;
-  }
+
   .buy-contact {
     font-size: 20px;
   }
-  .wildberries-link {
-    padding-bottom: 15px;
-    padding-top: 15px;
-  }
+
   .footer {
     padding-bottom: 40px;
     padding-top: 40px;
@@ -328,5 +301,24 @@ body {
   .mail,
   .phone {
     font-size: 18px;
+  }
+  .logo-img {
+    max-height: 35px;
+  }
+}
+
+@media (max-width: 300px) {
+  .badge {
+    max-height: 200px;
+    border-radius: 50px;
+  }
+  .logo-text {
+    font-size: 15px;
+  }
+  .tagline {
+    font-size: 10px;
+  }
+  .buy-contact {
+    font-size: 14px;
   }
 }
